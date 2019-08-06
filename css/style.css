@@ -1,0 +1,245 @@
+/*search bar*/
+.searchbar{
+    height: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    padding-top:5px;
+
+    transition: background-color 1s ease;
+    }
+.search_input{
+    color: black;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 150px;
+    caret-color: white;
+    transition: width 0.4s linear;
+    }
+.searchbar:hover {
+    background-color: white;
+
+
+}
+.searchbar:hover > .search_icon{
+
+    }
+.search_icon{
+    float: right;
+    display: flex;
+
+    border-radius: 50%;
+    color: white;
+    }
+#map{
+  height:400px;
+  width:100%;
+}
+
+/*special color*/
+.special-color {
+    background-color: #F5CFC7!important;
+}
+/*special button*/
+.button-special{
+  margin: 20px auto;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+  position: relative;
+  background: none;
+}
+.button-special::before{
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		content: '';
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+.button-special:hover::before{
+    background: white;
+		width: 100%;
+}
+.button-special .rounded{
+    border-radius: 50px;
+}
+.button-special .rounded .text-green{
+  color: white;
+  mix-blend-mode: difference;
+  font-size:16px!important;
+}
+.button-special.rounded::before{
+  border-radius: 50px;
+	width: 25%;
+	background: #F27165;
+  opacity: 0.5;
+}
+.button-special.rounded:hover::before{
+  width:100%;
+  z-index:-1;
+}
+
+.navbar .dropdown-menu a {
+    font-size: 20px;
+    color:#1A1A1A;
+}
+.something{
+  height:1000px;
+  width: 100%;
+
+
+}
+.footer-ul li a{
+  color: #1a1a1a;
+  font-size:16px;
+}
+.footer-ul li a:hover{
+  color: #A51003!important;
+
+}
+.menu-home-text{
+  font-family: Didact Gothic;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+.menu-item:hover{
+  color: #A51003!important;
+}
+.gradient1{
+  background-image: linear-gradient(white,#F5CFC7);
+}
+.gradient2{
+  background-image: linear-gradient(#F5CFC7,white);
+}
+
+.prev-icon{
+  background-image: url(/img/svg/back-filled-arrow.svg);
+}
+
+.nav-home{
+  background: transparent!important;
+  transition: background-color 1s ease 0s;
+  border-bottom: none!important;
+  transition: border-bottom 1s ease 0s;
+}
+.navbar{
+  background: #F5CFC7;
+  transition: background-color 1s ease 0s;
+  box-shadow: none;
+  border-bottom: 5px solid #A51003;
+}
+
+
+.carousel-caption{
+  margin-bottom: 10rem;
+}
+.carousel-multi-item .carousel-indicators li{
+  height:0.5rem;
+  width:10rem;
+  max-width: 10rem;
+  border-radius: 0%;
+  background-color: #F24737;
+  opacity:0.3;
+  margin:0;
+}
+.carousel-multi-item .carousel-indicators .active{
+  height:0.5rem;
+  width:10rem;
+  max-width: 10rem;
+  border-radius: 0%;
+  background-color:#F24737;;
+  opacity: 1;
+  margin:0;
+}
+.nav-item a {
+  color:black;
+  font-weight: 500;
+
+}
+
+.tab-setting{
+  background: #F5CFC7;
+  border: 1px solid white;
+
+}
+.tab-pane p{
+  font-size:18px;
+}
+.tab-content {
+  padding:0!important;
+}
+#tab_newin li a{
+  background: white;
+  margin: 0!important;
+  border-radius: 0%!important;
+}
+#tab_newin li .active{
+  background:  #F5CFC7!important;
+}
+#tab_newin li a :hover{
+  border-color: #F5CFC7!important;
+}
+.booking-btn{
+  background-color: white!important;
+  color: black!important;
+}
+.book-input{
+  border-top:  none;
+  border-left:  none;
+  border-right:  none;
+  border-bottom: 1px solid black!important;
+  border-radius: 0%;
+}
+.login-button{
+  background: #A51003!important;
+  color: white!important;
+  font-weight:500!important;
+  font-size:18px!important;
+}
+.pt-3-half {
+padding-top: 1.4rem;
+}
+
+@media (max-width: 576px) {
+  .h3-responsive {
+      font-size: 40px!important;
+  }
+  .move1{
+    top:-200px!important;
+  }
+  .move2{
+    top:-30px!important;
+  }
+  .p-responsive{
+    font-size:14px!important;
+  }
+  .move3{
+    top:-75px!important;
+  }
+  .h3-responsive-long{
+    font-size:25px!important;
+  }
+  .schedule-text li a{
+    visibility: hidden!important;
+  }
+  .profess-img{
+    top:0px!important;
+  }
+  .profess-img div{
+    top:0px!important;
+  }
+
+
+ }
